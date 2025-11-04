@@ -19,8 +19,6 @@ Packages: `randomForest`, `caret`, `cowplot`, `ggalt`, `dplyr`, `writexl`, `rfUt
 ```r
 source("AllFeatures_RandomForest.R")
 
-## Modules
-
 | File | Purpose |
 |------|----------|
 | `CardioRiskR_Cleaning.R` | Data cleaning and preprocessing (sampling, factor conversion, feature transformation). |
