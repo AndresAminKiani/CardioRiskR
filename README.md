@@ -1,8 +1,6 @@
 # CardioRiskR
 
-An R-based toolkit for cardiovascular risk modeling.  
-Includes scripts for data cleaning, feature extraction, and Random Forest–based classification.  
-Designed for reproducibility and reusability in clinical and epidemiologic data workflows.
+An R-based toolkit for cardiovascular risk modeling. Includes scripts for data cleaning, feature extraction, and Random Forest–based classification. Designed for reproducibility and reusability in clinical and epidemiologic data workflows.
 
 ## Features
 - Automated package installation and environment setup  
