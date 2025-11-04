@@ -12,15 +12,11 @@ Designed for reproducibility and reusability in clinical and epidemiologic data 
 - Feature importance visualization with `ggplot2` and `ggalt`  
 
 ## Requirements
-R ≥ 4.0  
-Packages: `randomForest`, `caret`, `cowplot`, `ggalt`, `dplyr`, `writexl`, `rfUtilities`
 
-## Example Usage
+- **R version:** ≥ 4.0  
+- **Required packages:**  
+  `randomForest`, `caret`, `cowplot`, `ggalt`, `dplyr`, `writexl`, `rfUtilities`
+
+To install all dependencies at once:
 ```r
-source("AllFeatures_RandomForest.R")
-
-| File | Purpose |
-|------|----------|
-| `CardioRiskR_Cleaning.R` | Data cleaning and preprocessing (sampling, factor conversion, feature transformation). |
-| `CardioRiskR_Exploration.R` | Exploratory analysis of comorbidities (depression, diabetes) using ggplot2 visualizations. |
-| `CardioRiskR_Model.R` | Random Forest–based predictive modeling and feature importance analysis. |
+install.packages(c("randomForest", "caret", "cowplot", "ggalt", "dplyr", "writexl", "rfUtilities"))
