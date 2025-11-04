@@ -18,3 +18,11 @@ Packages: `randomForest`, `caret`, `cowplot`, `ggalt`, `dplyr`, `writexl`, `rfUt
 ## Example Usage
 ```r
 source("AllFeatures_RandomForest.R")
+
+## Modules
+
+| File | Purpose |
+|------|----------|
+| `CardioRiskR_Cleaning.R` | Data cleaning and preprocessing (sampling, factor conversion, feature transformation). |
+| `CardioRiskR_Exploration.R` | Exploratory analysis of comorbidities (depression, diabetes) using ggplot2 visualizations. |
+| `CardioRiskR_Model.R` | Random Forest–based predictive modeling and feature importance analysis. |
